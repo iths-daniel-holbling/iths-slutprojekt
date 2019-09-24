@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Biffstugan</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="logo">
+            <a href="index.html">
+                <h1>Biffstugan</h1>
+                <h4>Bordsbokning</h4>
+            </a>
+        </div>
+        
+        <div id="bokning">
+            <form action="/submit-page" method="post">
+                <label for="namn">Namn</label>
+                <input type="text" name="Namn" id="namn">
+                <label for="antal">Antal i sällskapet</label>
+                <input type="text" name="antal" id="antal">
+                <label for="mail">E-post</label>
+                <input type="email" name="mail" id="mail">
+                <label for="date">Datum</label>
+                <input type="date" name="date" id="date">
+                <label for="time">Tid</label>
+                <input type="time" name="tid" id="tid">
+                <input type="submit" class="button" value="Skicka förfrågan">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
