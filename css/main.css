@@ -74,11 +74,40 @@ nav {
 #gallery {
     flex-direction: row;
     flex-wrap: wrap;
+    scroll-behavior: auto
 }
 
-#gallery img {
-    max-width: 360px;
-    max-height: 200px;
+
+
+#beefslice {
+    background: url(/img/beefslice.jpg);
+    background-position: center;
+    background-size: 90vw;
+}
+
+#cheeseburger {
+    background: url(/img/cheeseburger.jpg);
+    background-position: center;
+    background-size: 90vw;
+}
+
+#primecuts {
+    background: url(/img/primecuts.jpg);
+    background-position: center;
+    background-size: 90vw;
+}
+
+#placing-table {
+    background: url(/img/placing-table.jpg);
+    background-position: center;
+    background-size: 90vw;
+}
+
+.image {
+    width: 90vw;
+    height: 18vh;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0.3rem 0.3rem 0 #000;
 }
 
 #pdf-meny h2 {
