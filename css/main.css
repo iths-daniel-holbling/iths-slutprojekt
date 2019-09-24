@@ -4,6 +4,11 @@ body {
     background-size: 200%;
 }
 
+@keyframes fade {
+    0% {opacity: 0}
+    100% {opacity: 100;}
+}
+
 .wrapper {
     display: grid;
     grid-template: 1fr 2fr 1fr / 1fr;
@@ -25,6 +30,8 @@ body {
     font-size: 4rem;
     color: #FFFFFF;
     opacity: 0.8;
+    animation-name: fade;
+    animation-duration: 2s;
 }
 
 #logo h4 {
@@ -38,6 +45,8 @@ body {
     position: relative;
     top: -4rem;
     left: -5rem;
+    animation-name: fade;
+    animation-duration: 3s;
 }
 
 nav {
@@ -66,4 +75,6 @@ nav {
     box-sizing: border-box;
     backdrop-filter: blur(4px);
     border-radius: 4px;
+    animation-name: fade;
+    animation-duration: 2s;
 }
